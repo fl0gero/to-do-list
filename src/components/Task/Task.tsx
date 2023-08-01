@@ -64,7 +64,7 @@ function Task({ task, deleteTask, onSave }: TaskProps) {
       </div>
       {isEditing ? (
         <button
-          className="w-16 ml-8 border-solid border-4 border-orange-950 rounded-full flex-shrink-0"
+          className="w-16 h-16 ml-8 border-solid border-4 border-orange-950 rounded-full flex-shrink-0"
           onClick={setNewTask}
         >
           <Confirm className="text-[3rem]" />
